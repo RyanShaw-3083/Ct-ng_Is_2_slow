@@ -2,7 +2,7 @@ Without axel tool can be add... no choosen for fastest mirrors by default.
 
 !!! BUT CROSSTOOL-NG IS THE BEST EVER TOOL FOR MAKEING THE TOOLCHAIN !!!
 
-Usage:
+Usage (Before Compile CT-ng):
 
 ```shell
 python3 replace_mirror.py
@@ -11,3 +11,5 @@ python3 replace_mirror.py
 make
 make install
 ```
+
+or place the script to `/usr/local/share/crosstool-ng/` and execute.
