@@ -22,7 +22,7 @@ if __name__ == "__main__":
                 elif r != line:
                     line = r
                 targetfd.write(line)
-            targetfd.write("mirrors=" + repo + '\n')
+            targetfd.write("mirrors=" + repo + '/'+ p +'/\n')
             targetfd.close()
 
             os.remove("./packages/" + p + "/package.desc")
